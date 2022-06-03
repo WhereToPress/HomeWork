@@ -1,0 +1,10 @@
+# #/bin/bash
+cd /c/Users/Nobody/NewFolder
+mkdir NF1 NF2 NF3
+cd /c/Users/Nobody/NewFolder/NF1
+touch one.txt two.txt three.txt one.json two.json
+mkdir Nf1 Nf2 Nf3
+ls
+mv one.json two.json /c/Users/Nobody/NewFolder/NF1/Nf1
+ls
+#для большей практики дуй в линекс

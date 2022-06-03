@@ -1,0 +1,82 @@
+1)Посмотреть где я
+pwd
+2)Создать папку
+mkdir NewFolder
+3)Зайти в папку
+cd !$
+4)Создать 3 папки
+mkdir NF1 NF2 NF3
+5)Зайти в любую папку
+cd NF1
+6)Создать 5 файлов (3txt, 2json)
+touch one.txt two.txt three.txt one.json two.json
+7)Создать 3 папки
+mkdir Nf1 Nf2 Nf3
+8)Вывести список содержимого папки
+ls
+9)+Открыть любой txt файл
+nano one.txt
+10)+Написать туда какой нибудь текст
+Hello World, my name is Maksim
+11)+Сохранить и выйти
+Ctrl+S, Enter
+12)Выйти из папки на уровель выше
+cd ..
+13)Переместить любые 2 файла
+mv one.json two.json /c/Users/Nobody/NewFolder/NF2 (cd NF1)
+14)Скопировать любые 2 файла
+cp two.txt three.txt /c/Users/Nobody/NewFolder/NF3 (cd NF1)
+15)Найти файл по имени
+find . -iname "oNe"
+16)Посмотреть содержимое ф-ла в реальном времени(grep)
+grep 'Maksim' /c/Users/Nobody/NewFolder/NF1/one.txt
+17)Вывести несколько первых строк txt файла
+head -2 /c/Users/Nobody/NewFolder/NF1/one.txt
+18)Вывести несколько последних строк txt файла
+tail -2 /c/Users/Nobody/NewFolder/NF1/one.txt
+19)Посмотреть содержимое длинного файла (less)
+less /c/Users/Nobody/NewFolder/NF1/one.txt (/Mak ?Mak - поиск по файлу)
+20)Вывести дату и время
+date
+
+Задание*
+1) HTTP запрос
+curl http://162.55.220.72:5005
+Task_1		curl http://162.55.220.72:5005/get_method?name=Maksim\&age=32
+or:		curl "http://162.55.220.72:5005/get_method?name=Maksim&age=32"
+
+2)	Bash-скрипт (всё через терминал Git-Bash):
+cd /c/Users/Nobody/NewFolder1
+переход в директорию
+touch maksim_script.txt
+создание файла
+nano maksim_script.txt
+открытие для редактирования
+
+ВВОД СЦЕНАРИЯ:
+# #/bin/bash
+назначение исполнителя
+cd /c/Users/Nobody/NewFolder
+(3)Зайти в папку
+mkdir NF1 NF2 NF3
+(4)Создать 3 папки
+cd /c/Users/Nobody/NewFolder/NF1
+(5)Зайти в любую папку
+touch one.txt two.txt three.txt one.json two.json
+(6)Создать 5 файлов (3txt, 2json)
+mkdir Nf1 Nf2 Nf3
+(7)Создать 3 папки
+ls
+(8)Вывести список содержимого папки
+mv one.json two.json /c/Users/Nobody/NewFolder/NF1/Nf1
+(13)Переместить любые 2 файла
+ls
+(От себя, дабы убедиться в успешности перемещения)
+
+Ctrl+S, Enter
+(Сохранить и выйти из редактора)
+
+chmod ugo+x maksim_script.txt
+(Объявление файла maksim_script.txt «Исполняемым»)		
+./maksim_script.txt
+(Запуск исполняемого файла)

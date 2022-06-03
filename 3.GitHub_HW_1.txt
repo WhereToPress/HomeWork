@@ -1,0 +1,114 @@
+1.
+2.
+3. Заходим в акаунт GitHub
+4. Создать внешний репозиторий с назанием JSON
+- клик "+", New Repository, name - "JSON" scroll down, click button "Create repository" 
+5. Клонировать репозиторий на локальный компьютер
+- в консоле: git clone https://github.com/WhereToPress/JSON.git
+6. Внутри локального JSON создать файл “new.json” 
+- в кансоле: cd json. touch new.json
+7. Добавить файл под гит 
+- в консоле: git status. git add new.json
+8. Закоммитить файл 
+- в консоле: git commit -m "Add file 'new.json'"
+9. Отправить файл на внешний GitHub репозиторий. 
+- в консоле: git push
+10. Отредактировать содержание файла “new.json”: написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+- в консоле: nano new.json. Write text. Ctrl+O. Enter. Ctrl+X
+11. Отправить изменения на внешний репозиторий.
+- в консоле: git status. git add new.json. git commit -m "Changed file new.json". git push
+12. Создать файл preferences.json
+- в консоле: touch preferences.json
+13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+- в консоле: nano preferences.json. Write text. Ctrl+O. Enter. Ctrl+X
+14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+- в консоле: touch sklls.json. nano sklls.json. Write text. Ctrl+O. Enter. Ctrl+X
+15. Отправить сразу 2 файла на внешний репозиторий.
+- в консоле: git status, git add ., git commit -m "Add files: preferences.json sklls.json", git push
+16. На веб интерфейсе создать файл bug_report.json.
+- в GitHub.com, в репозитории "JSON", клик "Add file", "Create new file" bug_report.json
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+- в GitHub.com, скроллим вниз, заполняем поле "Commit changes", click button "Commit changes"
+18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+- в GitHub.com, в репозитории "JSON" клик по файлу "bug_report.json", Edit this file, Write text
+19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+- в GitHub.com, скроллим вниз, заполняем "Commit changes", click button "Commit changes"
+20. Синхронизировать внешний и локальный репозиторий JSON
+- в консоле: git pull
+
+XML
+21. Создать внешний репозиторий c названием XML.
+- клик "+", New Repository, name - "XML". Scroll down, click button "Create repository"
+22. Клонировать репозиторий XML на локальный компьютер.
+- в консоле: cd .. git clone https://github.com/WhereToPress/XML.git
+23. Внутри локального XML создать файл “new.xml”.
+- в консоле: cd XML. touch new.xml
+24. Добавить файл под гит.
+- в консоле: git status. git add new.xml
+25. Закоммитить файл.
+- в консоле: git commit -m "Create an empty file new.xml"
+26. Отправить файл на внешний GitHub репозиторий.
+- в консоле: git push
+27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+- в консоле: nano new.xml. Write text. Ctrl+O. Enter. Ctrl+X
+28. Отправить изменения на внешний репозиторий.
+- в консоле: git status. git add new.xml. git commit -m "Changed file new.xml". git push
+29. Создать файл preferences.xml
+- в консоле: touch preferences.xml
+30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+- в консоле: nano preferences.xml. Write text. Ctrl+O. Enter. Ctrl+X
+31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+- в консоле: touch sklls.xml. nano sklls.xml. Write text. Ctrl+O. Enter. Ctrl+X
+32. Сделать коммит в одну строку.
+- в консоле: git status, git add ., git commit -m "Add files: preferences.xml sklls.xml"
+33. Отправить сразу 2 файла на внешний репозиторий.
+- в консоле: git push
+34. На веб интерфейсе создать файл bug_report.xml.
+- в GitHub.com, в репозитории "XML", клик "Add file", "Create new file" bug_report.xml
+35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+- в GitHub.com, скроллим вниз, заполняем поле "Commit changes", click button "Commit changes"
+36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+- в GitHub.com, в репозитории "XML" клик по файлу "bug_report.xml", Edit this file, Write text
+37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+- в GitHub.com, скроллим вниз, заполняем "Commit changes", click button "Commit changes"
+38. Синхронизировать внешний и локальный репозиторий XML
+- в консоле: git pull
+
+TXT
+1. Создать внешний репозиторий c названием TXT.
+- клик "+", New Repository, name - "TXT". Scroll down, click button "Create repository"
+2. Клонировать репозиторий TXT на локальный компьютер.
+- в консоле: cd .. git clone https://github.com/WhereToPress/TXT.git
+3. Внутри локального TXT создать файл “new.txt”.
+- в консоле: cd txt. touch new.txt
+4. Добавить файл под гит.
+- в консоле: git status. git add new.txt
+5. Закоммитить файл.
+- в консоле: git commit -m "Create an empty file new.txt"
+6. Отправить файл на внешний GitHub репозиторий.
+- в консоле: git push
+7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+- в консоле: nano new.xml. Write text. Ctrl+O. Enter. Ctrl+X
+8. Отправить изменения на внешний репозиторий.
+- в консоле: git status. git add new.xml. git commit -m "Changed file new.xml". git push
+9. Создать файл preferences.txt	
+- в консоле: touch preferences.txt
+10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+- в консоле: nano preferences.txt. Write text. Ctrl+O. Enter. Ctrl+X
+11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+- в консоле: touch sklls.txt. nano sklls.txt. Write text. Ctrl+O. Enter. Ctrl+X
+12. Сделать коммит в одну строку.
+- в консоле: git status, git add ., git commit -m "Add files: preferences.txt sklls.txt"
+13. Отправить сразу 2 файла на внешний репозиторий.
+- в консоле: git push
+14. На веб интерфейсе создать файл bug_report.txt.
+- в GitHub.com, в репозитории "TXT", клик "Add file", "Create new file" bug_report.txt 
+15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+- в GitHub.com, скроллим вниз, заполняем поле "Commit changes", click button "Commit changes"
+16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
+- в GitHub.com, в репозитории "TXT" клик по файлу "bug_report.txt", Edit this file, Write text
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+- в GitHub.com, скроллим вниз, заполняем "Commit changes", click button "Commit changes"
+18. Синхронизировать внешний и локальный репозиторий TXT
+- в консоле: git pull
+
