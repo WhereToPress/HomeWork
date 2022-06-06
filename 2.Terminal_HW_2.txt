@@ -50,10 +50,14 @@ the third 3
 - cat>tf_4.txt
 - enter x16
 - Ctrl+D
+or:
+seq 15 > tf_4.txt
 15. Сделать текстовый файл tF_5.txt в котором будет 13 строк.
 - cat>tf_4.txt
 - enter x14
 - Ctrl+D
+or:
+seq 13 > tf_4.txt
 16. Вывести список всех файлов в папке.
 - find or ls
 17. Выйти из папки inner_dir_1
@@ -66,6 +70,9 @@ the third 3
 - cat > /c/users/nobody/newfolder/dir_1/inner_dir_1/tf_4.txt 
 - enter
 - Ctrl+D
+or:
+- cat /dev/null > tf_4.txt
+- cat /dev/null > /c/users/Nobody/NewFolder/dir_1/inner_dir_1/tf_4.txt
 21. Найти путь к файлам у которых есть  “tf” в названии.
 - find . -name "tf*.*"
 22. Найти путь к файлам у которых есть  “tf” в названии и буквы в любом регистре.
@@ -83,9 +90,11 @@ the third 3
 28. Найти строки в файлах где есть комбинация букв “second” в любом регистре в текущей папке
 - grep -i 'second' *.*
 29. Найти строки в файлах где есть комбинация букв “second” во всех папках ниже уровнем
-- grep -r second
+- grep -r 'second' */
+- grep -r 'second' /c/Users/Nobody/NewFolder/dir_1/*/
 30. Найти только путь и название файла в строках которых есть комбинация букв “second” в текущей папке
 - grep -l second
+
 31. Найти все строки во всех файлах где нет комбинации “second”
 - grep -v second *.*
 32. Найти только название и путь к файлам где нет комбинации “second”
