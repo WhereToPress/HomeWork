@@ -14,7 +14,6 @@
 - git branch Charles 
 - git branch Mobile_testing.
 2. Запушить все ветки на внешний репозиторий.
-- git commit --allow-empty -m "Creat empty branches" 
 - git push origin Postman
 - git push origin Jmeter 
 - git push origin Check_lists 
@@ -22,6 +21,8 @@
 - git push origin SQL 
 - git push origin Charles 
 - git push origin Mobile_testing.
+or
+- git push --all -u origin
 3. В ветке Bag_Reports сделать текстовый документ со структурой баг репорта.
 - git checkout Bug_reports. touch bug_report.txt. nano bug_report.txt.
 4. Запушить структуру багрепорта на внешний репозиторий.
